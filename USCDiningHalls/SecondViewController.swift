@@ -56,7 +56,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
                     print(try dinHallList.size())
                     for dinHall in dinHallList {
                         let currDinHall = try dinHall.select("h3.menu-venue-title")
-                        if try currDinHall.text() == "Everybody's Kitchen" {
+                        if try currDinHall.text() == "USC Village Dining Hall" {
                             if count == 0 {//Breakfast
                                 print("BREAKFAST")
                                 let undesiredElements = try dinHall.select("span")

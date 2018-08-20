@@ -55,7 +55,7 @@ class ThirdViewController: UIViewController, UITableViewDelegate, UITableViewDat
                     print(try dinHallList.size())
                     for dinHall in dinHallList {
                         let currDinHall = try dinHall.select("h3.menu-venue-title")
-                        if try currDinHall.text() == "Everybody's Kitchen" {
+                        if try currDinHall.text() == "Parkside Restaurant & Grill" {
                             if count == 0 {//Breakfast
                                 print("BREAKFAST")
                                 let undesiredElements = try dinHall.select("span")

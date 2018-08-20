@@ -465,7 +465,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="1991"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CyT-uQ-J9O" userLabel="MainView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1991"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2060"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breakfast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQc-vK-5sY">
                                                 <rect key="frame" x="0.0" y="51" width="375" height="30"/>
@@ -650,8 +650,10 @@
                         </subviews>
                         <constraints>
                             <constraint firstItem="djo-Mv-olK" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="BOP-Q1-dTD"/>
+                            <constraint firstItem="CyT-uQ-J9O" firstAttribute="height" secondItem="QS5-Rx-YEW" secondAttribute="height" id="HH2-8f-3CN"/>
                             <constraint firstItem="djo-Mv-olK" firstAttribute="trailing" secondItem="O1u-W8-tvY" secondAttribute="trailing" id="Lop-gX-WZR"/>
                             <constraint firstItem="djo-Mv-olK" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="cOC-g6-QbM"/>
+                            <constraint firstItem="CyT-uQ-J9O" firstAttribute="width" secondItem="QS5-Rx-YEW" secondAttribute="width" id="rdf-T8-zDK"/>
                             <constraint firstItem="djo-Mv-olK" firstAttribute="bottom" secondItem="O1u-W8-tvY" secondAttribute="bottom" id="tGI-vc-f4h"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
